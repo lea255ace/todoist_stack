@@ -58,7 +58,8 @@ def perform_push_operation(description):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-k', '--key_file',
-                        help='Filename from which to read the API key. \
+                        help='NOT IMPLEMENTED! \
+                            Filename from which to read the API key. \
                             If not provided, key will be read from TODOIST_API_KEY environment variable')
     parser.add_argument('-i', '--proj_id',
                         help='Directly provide the project id to skip the project lookup step.')
